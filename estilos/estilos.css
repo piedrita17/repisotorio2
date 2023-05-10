@@ -1,0 +1,64 @@
+h1
+{color: rgb(15, 204, 204);
+    font-size: xx-large;}
+#UNO{
+    color: rgb(42, 28, 236);
+    font-size: larger;}
+#DOS{color: blue;
+font-size: medium;}
+.TRES{color: aqua;
+font-size: medium;}
+.CUATRO{
+    color: rgba(58, 48, 25, 0.7);
+    font-size: medium;}
+    ul{
+        margin: 20px;
+        padding: 15px;
+        border: 20px solid rgb(58, 121, 238);
+        text-align: center;
+        font-size: 50px;}
+    img{width: 300px;
+        height: 500;}
+    body{
+        background-image: url(../imagenes/sanmames.jpg);
+        background-size: cover;
+        background-repeat:no-repeat ;
+        background-position: left top;
+        background-attachment: fixed;}
+    body{font-family: 'Times New Roman', Times, serif;}
+    h2{font-family: 'Mr Dafoe', cursive;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-family: 'Pacifico', cursive;
+        font-family: 'Staatliches', cursive;}
+    img{border-radius: 75px;
+        width: 300px;
+        height: 300px;}
+    h5{margin: 20px;
+       padding: 15px 5px;
+       border: 20px solid blue;
+       text-align: center;
+       border-radius: 50px;
+       width: 100px;
+       height: 100px;}
+    div{column-count: 10px;
+        column-gap: 50px;
+        column-rule: 10px double red;}
+    h5{
+        background-color: blue;
+    }
+    @media (min-width: 1000px) and (max-width: 1480px){}
+        h1{ margin: 10%; }
+    p.texto1{clear: right;}
+    section img{float: left;
+    margin-right: 15px;}
+    .padre{
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           height: 40px;}
+    .boton1{margin-right: auto;}
+    a:visited{color: greenyellow;}
+    a:hover{ background-color: orange;}
+    a:active{color: palevioletred;}
+    .container{color: blueviolet;}
+    .container-fluid{color: azure;}
